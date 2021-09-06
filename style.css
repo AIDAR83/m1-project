@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ---- общие свойства ---- */
+/* <!-- ===================================================================================================================== --> */
+body {
+  width: 100%;
+  font-family: 'Roboto';
+  font-style: normal;
+}
+.wrapper {
+  padding: 0vw 0vw 0vw 8.4vw;
+  height: 100%;
+}
+h1 {
+  font-family: 'Roboto Slab';
+  font-size: 5.55vw;
+  line-height: 101.38%;
+  width: 43.61vw;
+  padding: 1.81vw 0vw 1.11vw 0vw;
+}
+h2 {
+  font-family: 'Roboto Slab';
+  font-size: 3.82vw;
+  font-weight: 700;
+  line-height: 101.38%;
+}
+h3 {
+  font-size: 1.74vw;
+  font-weight: 700;
+  line-height: 130%;
+  margin: 0px 0px 0.69vw 0px;
+}
+h4 {
+  font-size: 2.04vw;
+  font-weight: 700;
+}
+img {
+  display: block;
+  width: 100%;
+}
+.p-font-list {
+  font-size: 1.25vw;
+  line-height: 130%;
+}
+/* -- header -- */
+/* <!-- ===================================================================================================================== --> */
+.header {
+  width: 100%;
+}
+.header-logo {
+  margin: 1.46vw 0vw 6.74vw 0vw;
+}
+.imglogo {
+  width: 7.78vw;
+  height: 4.58vw;
+}
+.block-header-icon {
+  width: 100%;
+  display: flex;
+  margin: 0vw 0vw 1.18vw 0vw;
+}
+.header-icon-img {
+  width: 1.53vw;
+  height: 1.53vw;
+  margin: 0vw 0.69vw 0vw 0vw;
+}
+.header-icon-text {
+  width: 9.03vw;
+  font-size: 1.39vw;
+  line-height: 115%;
+}
+.header-icon {
+  display: flex;
+  align-items: baseline;
+}
+.block-header-icon div:first-child {
+  margin: 0vw 1.74vw 0vw 0vw;
+}
+/* -- 1я секция -- Как смотреть кино -- */
+/* <!-- ===================================================================================================================== --> */
+.main {
+  width: 100%;
+}
+.top {
+  width: 74.51vw;
+}
+.block-top-body {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.top-body-text p {
+  width: 28.75vw;
+  font-size: 1.39vw;
+  line-height: 150%;
+}
+/* <!-- block -- картинка с тенью --> */
+/* <!-- ===================================================================================================================== --> */
+.block-top-body-imgshadow {
+  display: flex;
+  width: 21.11vw;
+  position: relative;
+}
+.top-body-img {
+  width: 100%;
+  z-index: 1;
+}
+.top-body-shadow {
+  width: 90.13%;
+  height: 11.48%;
+  background-color: #efefef;
+  position: absolute;
+  right: 0;
+  bottom: -6%;
+  border-radius: 100%;
+  z-index: 0;
+}
+/* <!-- ===================================================================================================================== --> */
+.top-quote {
+  width: 33.61vw;
+  height: 13.96vw;
+  border-radius: 0.35vw;
+  background-color: #1e4681;
+  color: #ffffff;
+  font-size: 1.74vw;
+  margin: 6.11vw 0vw 0vw 20vw;
+  padding: 1.39vw 1.81vw 1.39vw 1.81vw;
+}
+.top-quote-text {
+  font-family: 'Roboto Slab';
+  font-size: 1.74vw;
+  line-height: 130%;
+}
+.top-quote-author {
+  font-size: 1.39vw;
+  text-align: right;
+  line-height: 130%;
+  margin: 0.49vw 0vw 0vw 0vw;
+}
+/* -- 2я секция -- O курсе -- */
+/* <!-- ===================================================================================================================== --> */
+.about {
+  width: 80.97vw;
+}
+.about-title {
+  margin: 12.01vw 0vw 3.4vw 0vw;
+}
+.block-about-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-body-text {
+  width: 45.97vw;
+  font-size: 1.67vw;
+  line-height: 150%;
+}
+.about-body-text p:first-child {
+  margin: 0vw 0vw 2.5vw 0vw;
+}
+/* <!-- block -- картинка с тенью --> */
+/* <!-- ===================================================================================================================== --> */
+.block-about-body-imgshadow {
+  display: flex;
+  width: 21.81vw;
+  position: relative;
+}
+.about-body-img {
+  width: 100%;
+  z-index: 1;
+}
+.about-body-shadow {
+  width: 116.56%;
+  height: 18.73%;
+  background-color: #efefef;
+  position: absolute;
+  right: -6%;
+  bottom: -9%;
+  border-radius: 100%;
+  z-index: 0;
+}
+/* <!-- ===================================================================================================================== --> */
+.block-about-list {
+  display: flex;
+  margin: 4.86vw 0vw 0vw 0vw;
+}
+/* <!-- block -- картинка с тенью --> */
+/* <!-- ===================================================================================================================== --> */
+.block-about-list-imgshadow {
+  display: flex;
+  width: 16.11vw;
+  position: relative;
+}
+.about-list-img {
+  width: 100%;
+  z-index: 1;
+}
+.about-list-shadow {
+  width: 81.46%;
+  height: 15.76%;
+  background-color: #efefef;
+  position: absolute;
+  right: 4%;
+  bottom: -7%;
+  border-radius: 100%;
+  z-index: 0;
+}
+/* <!-- ===================================================================================================================== --> */
+.insideblok-about-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 5vw 0vw 0vw 9.17vw;
+}
+.about-list {
+  width: 10.42vw;
+  margin: 0vw 6.53vw 0vw 0vw;
+}
+/* -- 3я секция -- Формат занятий -- */
+/* <!-- ===================================================================================================================== --> */
+.format {
+  width: 100%;
+}
+.format-title {
+  margin: 12.36vw 0vw 8.19vw 0vw;
+}
+.block-format-list {
+  display: flex;
+}
+.block-format-list h3 {
+  color: #1e4681;
+}
+.format-list-one {
+  width: 16.04vw;
+  margin: 0vw 7.92vw 0vw 0vw;
+}
+.format-list-two {
+  width: 18.82vw;
+  margin: 0vw 7.85vw 0vw 0vw;
+}
+.format-list-three {
+  width: 17.01vw;
+}
+/* -- 4я секция -- Что узнаем -- */
+/* <!-- ===================================================================================================================== --> */
+.info {
+  width: 100%;
+}
+.info-title {
+  margin: 15.21vw 0vw 4.17vw 0vw;
+}
+.info-list {
+  width: 45.97vw;
+}
+.list {
+  font-size: 1.67vw;
+  line-height: 150%;
+  margin: 0vw 0vw 0vw 1.25vw;
+}
+/* -- 5я секция -- Программа курса -- */
+/* <!-- ===================================================================================================================== --> */
+.program {
+  width: 100%;
+}
+.program-title {
+  margin: 16.04vw 0vw 0vw 0vw;
+}
+.block-program-card {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 9.31vw 0vw 5.49vw -2.64vw;
+}
+.program-card {
+  width: 27.71vw;
+  height: 22.78vw;
+  border-radius: 2.08vw;
+  box-shadow: 0.07vw 0.07vw 1.04vw rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  margin: 0vw 2.57vw 2.92vw 0vw;
+}
+.program-card-text {
+  height: 11.67vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1.39vw 0 1.39vw 1.39vw;
+}
+.program-card-text p {
+  font-size: 1.74vw;
+  line-height: 130%;
+}
+/* -- 6я секция -- Курс прошло уже 1616 человек -- */
+/* <!-- ===================================================================================================================== --> */
+.comment {
+  width: 100%;
+  height: 54.17vw;
+  background-color: #efefef;
+}
+.comment-title {
+  padding: 6.32vw 0vw 5.28vw 0vw;
+}
+.comment-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 54.93vw;
+  height: 31.32vw;
+  border-radius: 2.08vw;
+  box-shadow: 0.07vw 0.07vw 1.39vw rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  padding: 2.78vw 3.13vw 2.01vw 3.13vw;
+}
+.comment-card p {
+  font-family: Roboto;
+  font-size: 1.39vw;
+  font-weight: 400;
+  line-height: 150%;
+}
+.block-comment-card-user {
+  display: flex;
+  align-items: center;
+}
+.comment-card-user-img {
+  width: 13.19vw;
+  height: 11.74vw;
+  margin: 0vw 2.08vw 0vw -1.32vw;
+}
+.comment-card-user-name {
+  font-family: 'Roboto Slab';
+  font-size: 2.08vw;
+  font-weight: 700;
+  line-height: 101.38%;
+}
+.comment-card-user-imgicon {
+  width: 2.22vw;
+  height: 2.15vw;
+  margin: 2.01vw 0vw 0vw 0vw;
+}
+/* -- 7я секция -- Начало курса — 8 сентября -- */
+/* <!-- ===================================================================================================================== --> */
+.price {
+  width: 100%;
+  height: 54.17vw;
+  background-color: #9dc9c8;
+}
+.price-title {
+  padding: 12.43vw 0vw 4.65vw 0vw;
+}
+.price-text {
+  font-size: 1.74vw;
+  font-weight: 400;
+  line-height: 101.38%;
+}
+.price-value {
+  font-size: 5.56vw;
+  font-weight: 400;
+  line-height: 101.38%;
+}
+.block-price-list {
+  display: flex;
+  margin: 5.56vw 0vw 0vw 0vw;
+}
+.block-price-list p {
+  font-size: 1.25vw;
+  font-weight: 400;
+  line-height: 101.38%;
+}
+.block-price-list h3 {
+  font-weight: 400;
+  line-height: 101.38%;
+}
+.price-list {
+  width: 20.42vw;
+  margin: 0vw 4.86vw 0vw 0vw;
+}
+/* -- footer -- */
+/* <!-- ===================================================================================================================== --> */
+.footer {
+  height: 27.08vw;
+  color: white;
+  background-color: #000000;
+}
+.block-footer {
+  display: flex;
+  padding: 3.47vw 0vw 0vw 0vw;
+  justify-content: space-between;
+}
+.insideblock-footer-leftsection {
+  display: flex;
+  margin: 2.01vw 0vw 0vw 0vw;
+}
+.social-icons {
+  width: 2.36vw;
+  height: 2.36vw;
+  margin: 0vw 1.53vw 0vw 0vw;
+}
+.footer-rightsection {
+  padding: 0vw 12.43vw 0vw 0vw;
+}
+.block-footer-rightsection-contact {
+  display: flex;
+  margin: 0vw 0vw 1.11vw 0vw;
+}
+.block-footer-rightsection-contact p {
+  font-size: 1.74vw;
+  line-height: 101.38%;
+}
+.contact-icons {
+  width: 1.88vw;
+  height: 1.88vw;
+  margin: 0vw 1.53vw 0vw 0vw;
+}
+.footer-text {
+  font-size: 1.25vw;
+  line-height: 101.38%;
+  margin: 10.14vw 0vw 0vw 0vw;
+}
+/* <!-- ===================================================================================================================== --> */
+@media (max-width: 1279px) {
+  .wrapper {
+    padding: 0vw 0vw 0vw 8.39vw;
+  }
+  .header-logo {
+    margin: 2.64vw 0vw 6.74vw 0vw;
+  }
+  .header-icon-text {
+    width: 9.11vw;
+    font-size: 1.44vw;
+  }
+  .block-header-icon {
+    margin: 0vw 0vw 0vw 0vw;
+  }
+  h1 {
+    padding: 1.81vw 0vw 2.52vw 0vw;
+  }
+  .top-quote {
+    margin: 6.88vw 0vw 0vw 20vw;
+  }
+  .format-title {
+    margin: 12.36vw 0vw 8.99vw 0vw;
+  }
+  .block-program-card {
+    margin: 9.31vw 0vw 3.24vw -2.64vw;
+  }
+  .comment-card p {
+    width: 48.68vw;
+    font-size: 1.44vw;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 991px) {
+  .wrapper {
+    padding: 0vw 8.53vw 0vw 9.33vw;
+  }
+  .header-logo {
+    margin: 9.6vw 0vw 12vw 0vw;
+  }
+  .imglogo {
+    width: 14.13vw;
+    height: 8.27vw;
+  }
+  .block-header-icon {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    margin: 0vw 0vw 1.18vw 0vw;
+  }
+  .header-icon-img {
+    width: 2.93vw;
+    height: 2.93vw;
+    margin: 0vw 0.69vw 0vw 0vw;
+  }
+  .header-icon-text {
+    width: 16.27vw;
+    font-size: 2.67vw;
+  }
+  .block-header-icon div:first-child {
+    margin: 0vw 2.93vw 0vw 0vw;
+  }
+  h1 {
+    font-size: 9.87vw;
+    width: 78.4vw;
+    padding: 1.81vw 0vw 5.11vw 0vw;
+  }
+  .top-body-text p {
+    width: 57.07vw;
+    font-size: 2.67vw;
+  }
+  .block-top-body {
+    display: block;
+  }
+  .block-top-body-imgshadow {
+    margin: 0vw 0vw 0vw 44.27vw;
+    width: 37.87vw;
+  }
+  .top-quote {
+    width: 60.27vw;
+    height: 25.07vw;
+    border-radius: 0.53vw;
+    margin: 12.53vw 0vw 0vw 0.8vw;
+    padding: 2.67vw 3.2vw 2.67vw 3.2vw;
+  }
+  .top-quote-text {
+    width: 53.6vw;
+    font-size: 2.93vw;
+  }
+  .top-quote-author {
+    font-size: 2.67vw;
+    margin: 0.8vw 0vw 0vw 0vw;
+  }
+  .about-title {
+    margin: 20vw 0vw 6.93vw 0vw;
+  }
+  h2 {
+    font-size: 6.93vw;
+  }
+  .block-about-body {
+    display: block;
+  }
+  .about-body-text {
+    width: 100%;
+    font-size: 3.2vw;
+  }
+  .about-body-text p:first-child {
+    margin: 0vw 0vw 5.3vw 0vw;
+  }
+  .block-about-body-imgshadow {
+    margin: 4.53vw 0vw 0vw 20.8vw;
+    width: 39.2vw;
+  }
+  .block-about-list {
+    display: block;
+    margin: 15.73vw 0vw 0vw 0vw;
+  }
+  .block-about-list-imgshadow {
+    display: none;
+  }
+  h3 {
+    font-size: 3.2vw;
+    margin: 0px 0px 0vw 0px;
+  }
+  .insideblok-about-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0vw 0vw 0vw 0vw;
+  }
+  .about-list {
+    width: 23.47vw;
+    align-items: flex-start;
+    margin: 0vw 8.8vw 7.73vw 0vw;
+  }
+  .p-font-list {
+    font-size: 2.67vw;
+  }
+  .block-format-list {
+    display: block;
+    flex-direction: column;
+  }
+  .block-format-list h3 {
+    margin: 0vw 0vw 0.8vw 0vw;
+  }
+  .format-list-one {
+    width: 48vw;
+    margin: 0vw 0vw 9.07vw 0vw;
+  }
+  .format-list-two {
+    width: 44vw;
+    margin: 0vw 0vw 8.53vw 0vw;
+  }
+  .format-list-three {
+    width: 42.4vw;
+  }
+  .info-title {
+    margin: 21.07vw 0vw 7.47vw 0vw;
+  }
+  .info-list {
+    width: 100%;
+  }
+  .list {
+    font-size: 3.2vw;
+  }
+  .block-program-card {
+    flex-direction: column;
+    align-items: center;
+    margin: 14.13vw 0vw 5.49vw -2.64vw;
+  }
+  .program-card {
+    width: 49.33vw;
+    height: 40.8vw;
+    border-radius: 3.73vw;
+    margin: 0vw 0vw 6.4vw 0vw;
+  }
+  h4 {
+    font-size: 3.73vw;
+  }
+  .program-card-text {
+    height: 20.8vw;
+    padding: 1.07vw 0 2.67vw 2.4vw;
+  }
+  .program-card-text p {
+    font-size: 3.2vw;
+  }
+  .comment {
+    width: 100%;
+    height: 112.8vw;
+  }
+  .comment-title {
+    width: 68.53vw;
+    padding: 11.2vw 0vw 8vw 0vw;
+  }
+  .comment-card {
+    width: 82.13vw;
+    height: 66.13vw;
+    border-radius: 3.73vw;
+    padding: 4.8vw 5.6vw 3.47vw 5.6vw;
+  }
+  .comment-card p {
+    width: 100%;
+    font-size: 2.67vw;
+  }
+  .comment-card-user-img {
+    width: 26.4vw;
+    height: 22.4vw;
+    margin: 0vw 0vw 0vw -1.32vw;
+  }
+  .comment-card-user-name {
+    font-size: 3.73vw;
+  }
+  .comment-card-user-imgicon {
+    width: 4.27vw;
+    height: 4.8vw;
+    margin: 5.33vw 0vw 0vw 0vw;
+  }
+  .price {
+    height: 97.07vw;
+  }
+  .price-title {
+    width: 59.73vw;
+    padding: 16.53vw 0vw 9.07vw 0vw;
+  }
+  .price-text {
+    font-size: 3.2vw;
+  }
+  .price-value {
+    font-size: 9.87vw;
+  }
+  .block-price-list {
+    margin: 9.6vw 0vw 0vw 0vw;
+    justify-content: space-between;
+  }
+  .block-price-list p {
+    font-size: 2.67vw;
+    margin: 2.4vw 0vw 0vw 0vw;
+  }
+  .price-list {
+    width: 37.33vw;
+    margin: 0vw 0vw 0vw 0vw;
+  }
+  .footer {
+    height: 66.93vw;
+  }
+  .block-footer {
+    display: block;
+    padding: 6.13vw 0vw 0vw 0vw;
+  }
+  .insideblock-footer-leftsection {
+    margin: 3.73vw 0vw 12.53vw 0vw;
+  }
+  .social-icons {
+    width: 4.53vw;
+    height: 4.53vw;
+    margin: 0vw 2.4vw 0vw 0vw;
+  }
+  .block-footer-rightsection-contact {
+    display: flex;
+    margin: 0vw 0vw 2.93vw 0vw;
+  }
+  .block-footer-rightsection-contact p {
+    font-size: 3.2vw;
+  }
+  .contact-icons {
+    width: 3.47vw;
+    height: 3.47vw;
+    margin: 0vw 2.4vw 0vw 0vw;
+  }
+  .footer-text {
+    font-size: 2.67vw;
+    margin: 14.67vw 0vw 0vw 0vw;
+  }
+}
